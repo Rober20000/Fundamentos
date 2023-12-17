@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <a href="../index.html">Inicio</a>
+        <a href="temas_pagina.html">Temas</a>
+        <a href="FII.html">FII</a>
+        <a href="sobre_mi.html">Sobre mí</a>
+        <a href="red.html">Red</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section class="texto_imagenes">
+        <section class="formulario">
+            <form method="post" action="/">
+                <h2 id="registrate">Regístrate</h2>
+                <div class="rellenar">
+                    <label>Nombre:
+                        <input type="text" name="myname" placeholder="Benito" required>
+                        <p class="mensajeError"></p>
+                    </label>
+                </div>
+                <div class="rellenar">
+                    <label>Apellidos:
+                        <input type="text" name="surname" placeholder="Pérez Galdós" required>
+                        <p class="mensajeError"></p>
+                    </label>
+                </div>
+                <div class="rellenar">
+                    <label>Email:
+                        <input type="email" name="email" placeholder="galdos@gmail.com" required>
+                        <p class="mensajeError"></p>
+                    </label>
+                </div>
+                <div class="rellenar">
+                    <label>Teléfono:
+                        <input type="tel" name="phone" placeholder="123-456-789" required>
+                        <p class="mensajeError"></p>
+                    </label>
+                </div>
+                <div class="rellenar">
+                    <label>Contraseña:
+                        <input type="password" name="password" pattern=".{6,}" title="La contraseña debe tener al menos 6 caracteres" required>
+                        <p class="mensajeError"></p>
+                    </label>
+                </div>
+                <div class="rellenar">
+                    <label>Repetir contraseña:
+                        <input type="password" name="password_repeat" pattern=".{6,}" title="La contraseña debe tener al menos 6 caracteres" required>
+                        <p class="mensajeError"></p>
+                    </label>
+                </div>
+
+                <div class="rellenar">
+                    <label>
+                        <input type="submit" value="Enviar">
+                    </label>
+                </div>
+            </form>
+        </section>
+    </section>
+
+    <footer class="pie_pagina">
+        <p>
+            <a href="politica-de-privacidad.html">Política de privacidad</a> |
+            <a href="cookies.html">Cookies</a>
+        </p>
+        <p>&copy; 2023 IA Generativa en Marketing. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
